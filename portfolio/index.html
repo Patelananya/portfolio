@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ananya Jannatha | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+
 </head>
 <body>
-  <header id="home">
+  <header class="navbar">
+    <div class="logo">Ananya</div>
     <nav>
-      <div class="logo">Ananya</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -18,32 +26,28 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+  </header>
+
     <div class="hero">
         <br>
         <br>
       <h1>Hi, I'm <span class="highlight">Ananya Jannatha</span></h1>
       <p class="typing-text"></p>
-
     </div>
-    <section id="about" class="section">
-    <h2>About Me</h2>
-    <div class="about-container">
-      <img src="profile.jpg" alt="Profile Photo" />
-      <div class="about-text">
-        <p>
-          I am a Full-Stack Web Developer passionate about building modern,
-          performant applications. I love solving complex problems and
-          creating elegant user experiences.
-        </p>
-        <br>
-        <br>
-        <br>
-        <a href="#contact" class="btn">Contact Me</a>
+
+    <section id="about" class="about-section">
+    <div class="about-content">
+      <div class="text">
+        <!-- <h1>Hi, I'm <span>Ananya Jannatha</span></h1> -->
+        <h2>About Me</h2>
+        <p>I am a Full-Stack Web Developer passionate about building modern, performant applications. I love solving complex problems and creating elegant user experiences.</p>
+        <a href="ananya_resume.pdf" download class="btn">Download Resume</a>
+      </div>
+      <div class="photo">
+        <img src="profile.jpg" alt="Ananya Jannatha" />
       </div>
     </div>
   </section>
-  </header>
-
   
 
   <section id="skills" class="section">
@@ -103,19 +107,27 @@
   </section>
 
   <section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-    <div class="contact-info">
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/ananya-jannatha/">My profile</a></p>
-      <p>GitHub: <a href="https://github.com/Patelananya">My profile</a></p>
-      <p>Leetcode: <a href="https://leetcode.com/u/ananya_829/">My profile</a></p>
-    </div>
-  </section>
+  <h2>Contact Me</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+  
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/ananya-jannatha" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/Patelananya" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="patelananya829@gmail.com">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</section>
+
   
 
   <footer>
