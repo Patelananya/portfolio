@@ -98,20 +98,6 @@ header {
   margin-bottom: 20px;
 }
 
-.btn {
-  background: #a28eeb;
-  color: #333;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background: #b15ee4;
-}
-
 .section {
   padding: 60px 50px;
 }
@@ -204,6 +190,20 @@ header {
   height: auto;
   border-radius: 50%;
   margin-top: 0;
+}
+
+.btn {
+  background: #a28eeb;
+  color: #333;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #b15ee4;
 }
 
 .skills-container {
