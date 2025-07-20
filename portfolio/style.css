@@ -1,0 +1,196 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+header {
+  color: #b29be8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #333;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: #b29be8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero .highlight {
+  color: #ddd;
+}
+
+.typing-text {
+  font-size: 1.5em;
+  height: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #a28eeb;
+  color: #333;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #b15ee4;
+}
+
+.section {
+  padding: 60px 50px;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.about-container img {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.about-text {
+  max-width: 600px;
+  color: #ddd;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.skill h3 {
+  margin-bottom: 10px;
+}
+
+.progress {
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress .bar {
+  height: 20px;
+  background: #b29be8;
+  width: 0;
+  transition: width 1s ease-in-out;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: (135deg, #667eea, #764ba2);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  margin: 15px 0;
+}
+
+.project-card p {
+  padding: 0 15px 15px;
+}
+
+.project-card .btn {
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #b29be8;
+}
