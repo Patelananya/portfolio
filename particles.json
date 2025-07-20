@@ -10,10 +10,10 @@
       "type": "circle"
     },
     "opacity": {
-      "value": 0.5
+      "value": 0.3
     },
     "size": {
-      "value": 3
+      "value": 2.6
     },
     "move": {
       "enable": true,
@@ -21,10 +21,10 @@
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 230,
       "color": "#ffffff",
-      "opacity": 0.2,
-      "width": 1
+      "opacity": 0.3,
+      "width": 1.5
     }
   }
 }
