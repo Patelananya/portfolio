@@ -21,25 +21,27 @@ body{
     background: linear-gradient(135deg, #667eea, #764ba2);
 }
 
-header {
+/* header {
   color: #b29be8;
-  /* height: 100vh; */
-  /* display: flex;
-  flex-direction: column; */
+} */
+ header {
+  width: 100%;
 }
+
 
 .navbar {
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 1001; /* Must be higher than #particles-js */
   background: #333;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.8rem 2rem;
-  color: #caa6ff;
-  backdrop-filter: blur(10px); /* Optional: adds a glassy blur */
+  color: #b29be8;
+  backdrop-filter: blur(10px);
 }
+
 
 .navbar ul {
   list-style: none;
@@ -50,7 +52,7 @@ header {
 }
 
 .navbar a {
-  color: #caa6ff;
+  color: #b29be8;
   text-decoration: none;
   font-weight: 600;
 }
@@ -108,6 +110,15 @@ header {
   margin-bottom: 40px;
   color: #333;
 }
+
+
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 /* .about-container {
   display: flex;
@@ -168,7 +179,7 @@ header {
 
 .about-content .btn {
   display: inline-block;
-  background-color: #caa6ff;
+  background-color: #b29be8;
   color: #000;
   padding: 0.7rem 1.2rem;
   text-decoration: none;
@@ -339,6 +350,22 @@ body > *:not(#particles-js) {
   z-index: 1;
 }
 
+/* Entry animation keyframes */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translate(-50px, 50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+/* Apply animation to the entire page content */
+body.loaded .animate-entry {
+  animation: slideIn 1s ease-out forwards;
+}
 
 
 
