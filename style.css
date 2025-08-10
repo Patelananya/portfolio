@@ -213,10 +213,11 @@ header {
 }
 
 .project-card {
-  background: (135deg, rgb(102, 126, 234), #764ba2);
+  /* background: (135deg, rgb(102, 126, 234), #764ba2); */
+  background-color: rgba(200, 200, 200, 0.093);
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  /* box-shadow: 0 2px 10px rgba(237, 233, 233, 0); */
   text-align: center;
 
   border: 2px solid #b29be8;
@@ -242,6 +243,7 @@ header {
 
 .project-card p {
   padding: 0 15px 15px;
+  color: rgb(36, 32, 32);
 }
 
 .project-card .btn {
