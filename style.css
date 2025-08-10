@@ -219,6 +219,8 @@ header {
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   text-align: center;
+
+  border: 2px solid #b29be8;
 }
 
 .project-card img {
@@ -314,6 +316,7 @@ body > *:not(#particles-js) {
 /* Apply animation to the entire page content */
 body.loaded .animate-entry {
   animation: slideIn 1s ease-out forwards;
+
 =======
 /* RESET */
 * {
